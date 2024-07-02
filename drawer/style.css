@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+    
+
+body{
+    margin-top: 20px;
+    background-color: salmon;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+ul{
+    list-style-type: none;
+}
+.menubar{
+    margin: 5px 5px 0 0;
+    background-color: white;
+    width: 100%;
+    max-width: fit-content;
+}
+.searchButton{
+    background-color: white;
+    border: none;
+    filter: invert(100%);
+}
+.searchBar{
+    display: flex;
+    background-color: gray;
+    width: 280px;
+    height: 45px;
+    margin: 7px;
+}
+.searchBar > div{
+    display: flex;
+  width: 240px;
+}
+.searchBar > div > input{
+  width: 240px;
+  height: 45px;
+  text-align: center;
+}
+.menubar:first-child{
+    background-color: #F6F6F6;
+    width: 305px;
+    height: 63px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchBar > div > input:hover{
+        border: 3px solid black;
+    }
+
+/* navigation list starts from here */
+
+.list{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+}
+.list > a{
+    height: 45px;
+    width: 287px;
+    border-bottom: 1px solid #E6E8EA;
+}
+.listItems > div > button{
+    background-color: transparent;
+    font-weight: 700;
+    border: none;
+    padding: 14px 13px;
+}
+
+.list > a:hover{
+    background-color: #E6E8EA;
+}
+/* when visible */
+#menubar {
+  width: 0; /* Initial width: collapsed */
+  overflow: hidden; /* Prevent content overflow during transition */
+  transition: width 0.5s ease-in-out; /* Define smooth transition for width */
+}
+
+#menubar.expanded {
+  width: 23.44%; /* Expanded width (adjust as needed) */
+}
+
+/*resposive*/

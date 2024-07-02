@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    width: 100%;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.outer-wrapper{
+    display: flex;
+    background-color: black;
+    margin-top: 3rem;
+    position: relative;
+    width: 35%;
+    left: 12.5%;
+
+}
+.inner-wrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+}
+svg{
+    height: 2.5rem;
+    fill: white;
+}
+h1 > span{
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: white;
+    font-weight: 700;
+}
+.instruct{
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: white;
+    padding: 32px 0;
+}
+.btns{
+    display: flex;
+    justify-content: space-around;
+}
+
+.linkButton:last-of-type{
+    margin-left: 1rem;
+}
+
+.linkButton{
+    
+    background-color: #0071f1;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.25rem;
+    overflow-wrap: break-word;
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    width: 100%;
+}
+.logo{
+    margin-top: 0.5rem;
+    position: static;
+    margin: 1rem 0 1.25rem;
+    padding: 0.5rem 0;
+}
+
+/**/
+.linkButton:hover{
+    background-color: #0051ad;
+}
+
+.upperFooter{
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    padding: 1rem 2rem;
+    font-size: .875rem;
+    width: 100%;
+}
+.svg__container{
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    font-size: 2rem;
+    width: 32px;
+    
+}
+.page__close{
+    right: 16px;
+    top: 16px;
+    position: fixed;
+}
+
+.instruct2{
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    color: white;
+    padding: 32px 0;
+    text-align: left;
+}

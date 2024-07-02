@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    width: 100%;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.outer-wrapper{
+    display: flex;
+    background-color: black;
+    margin-top: 3rem;
+    position: relative;
+    width: 35%;
+    left: 12.5%;
+
+}
+.inner-wrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+}
+svg{
+    height: 2.5rem;
+    fill: white;
+}
+h1 > span{
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: white;
+    font-weight: 700;
+}
+.instruct{
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: white;
+    padding: 32px 0;
+}
+.btns{
+    display: flex;
+    justify-content: space-around;
+}
+
+.linkButton:last-of-type{
+    margin-left: 1rem;
+}
+
+.linkButton{
+    
+    background-color: #0071f1;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.25rem;
+    overflow-wrap: break-word;
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    width: 100%;
+}
+.logo{
+    margin-top: 0.5rem;
+    position: static;
+    margin: 1rem 0 1.25rem;
+    padding: 0.5rem 0;
+}
+
+/**/
+.linkButton:hover{
+    background-color: #0051ad;
+}
+
+.upperFooter{
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    padding: 1rem 2rem;
+    font-size: .875rem;
+    width: 100%;
+}
+.svg__container{
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    font-size: 2rem;
+    width: 32px;
+    
+}
+.page__close{
+    right: 16px;
+    top: 16px;
+    position: fixed;
+}
+
+.instruct2{
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    color: white;
+    padding: 32px 0;
+    text-align: left;
+}
+
+/*css for date of birth form*/
+
+fieldset{
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 48px;
+}
+
+
+.legendBirth{
+    padding-bottom: 20px;
+    padding-top: 32px;
+    max-width: 100%;
+    text-align: left;
+
+}
+.legendBirth > h2{
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: white;
+    text-align: left;
+}
+.feild{
+    display: inline-block;
+    margin: 0 5% 0 0;
+    width: 30%;
+}
+.feild:last-of-type{
+    margin: 0;
+}
+.feildInside{
+    margin-bottom: 8px;
+    padding-top: 16px;
+    position: relative;
+}
+
+.feildInput{
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: bold;
+    letter-spacing: -0.0625rem;
+    background: transparent;
+    outline: 0;
+    border: 0;
+    padding-top: 20px;
+    padding-bottom: 4px;
+    width: 100%;
+    border-bottom: 1px solid white;
+    color: white;
+}
+.feildLabel{
+    color: white;
+    bottom: 4px;
+    font-size: 1.5rem;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    top: initial;
+    transition: 0.3s bottom ease, 0.3s font-size ease, 0.3s line-height ease;
+}
+.wrapper{
+    display: flex;
+}
+
+.feildInput:focus + .feildLabel{
+    bottom: 30px;
+    font-size: 1rem;
+}
+
+.continueButton{
+    background-color: #0071f1;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.25rem;
+    overflow-wrap: break-word;
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+.continueButton:hover{
+    background-color: #0051ad;
+}
+.hide{
+    display: none;
+}
+
+
+.passButton{
+    color: white;
+    background-color: black;
+    border: none;
+    bottom: 4px;
+    font-size: 0.8rem;
+    right: 0;
+    position: absolute;
+    top: initial;
+    cursor: pointer;
+   
+}
+.feild2{
+    max-width: 100%;
+}
+h3{
+    color: white;
+    text-align: left;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+ul{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 18px;
+    font-weight: 300;
+    font-size: 1rem;
+}
+.PrivacyPoli{
+    margin-top: 20px;
+}
+.Registerbutton{
+    padding-top: 20px ;
+}
+
+input:not(:empty) ~ label {
+    bottom: 30px;
+  }
